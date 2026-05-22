@@ -1,0 +1,10 @@
+2026-05-22 09:00:01 [INFO ] auth.LoginService - Пользователь user42 успешно авторизован
+2026-05-22 09:00:03 [DEBUG] db.ConnectionPool - Открыто соединение #17
+2026-05-22 09:00:07 [WARN ] cache.RedisClient - Высокая задержка ответа: 250ms
+2026-05-22 09:00:12 [ERROR] payment.Gateway - Платёж 1183 отклонён банком
+2026-05-22 09:00:15 [INFO ] api.UserController - GET /api/users/42 -> 200
+2026-05-22 09:00:21 [FATAL] db.ConnectionPool - Потеря связи с master-нодой
+2026-05-22 09:00:25 [INFO ] scheduler.JobRunner - Запущена задача nightly-report
+2026-05-22 09:00:31 [WARN ] auth.LoginService - Неудачная попытка входа для user99
+2026-05-22 09:00:40 [DEBUG] api.UserController - Кеш промах для ключа user:42
+2026-05-22 09:00:42 [ERROR] api.UserController - NullPointerException в UserMapper.map
